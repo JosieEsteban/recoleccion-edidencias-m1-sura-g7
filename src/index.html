@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7: Sistema de Turnos 'Fila Express</title>
+</head>
+
+<body>
+    
+    <script src="/src/script.js"></script>
+      
+</body>
+
+</html>
+
+/* Ejercicio 7: Sistema de Turnos 'Fila Express'
+
+La Necesidad:
+
+
+Un centro de atención al cliente 'Fila Express' quiere optimizar sus filas. Tienen tres tipos de
+atención: "Caja", "Asesoría" y "Atención Preferencial". Necesitan un prototipo de consola que
+asigne turnos y determine la prioridad del usuario según su elección y su edad.
+
+
+Tu Tarea:
+
+
+Desarrollar un programa que asigne turnos. El usuario debe seleccionar el tipo de servicio y el
+sistema le debe asignar un turno basado en reglas de prioridad.
+
+Requisitos de Operación:
+
+
+● El sistema debe simular la asignación de turnos.
+● El menú principal debe ofrecer:
+
+1. Solicitar Turno para Caja
+2. Solicitar Turno para Asesoría
+3. Verificar Prioridad (Tercera Edad)
+4. Ver Turno Asignado
+5. Salir
+
+Lógica de Decisiones (Condicionales):
+
+● Opciones 1 y 2 (Solicitar Turno):
+○ Asignan un turno general (ej. "C-1", "A-1").
+○ Debe validar que el usuario no tenga ya un turno asignado.
+
+
+● Opción 3 (Verificar Prioridad):
+
+○ Debe preguntar la edad del usuario.
+○ Si el usuario es mayor de 60 años: Debe mostrar "Prioridad Activada: Atención
+Preferencial".
+○ Si es menor de 60: "No aplica para atención preferencial".
+
+● Opción 4 (Ver Turno Asignado):
+
+○ Debe verificar si el usuario ya solicitó turno (Opciones 1 o 2).
+○ Debe verificar si el usuario ya verificó prioridad (Opción 3).
+○ Debe usar decisiones anidadas para mostrar el turno final:
+
+■ Si (pidió "Caja" O "Asesoría") Y (es "Mayor de 60"): Su turno es "P-1 (Preferencial)".
+■ Si (pidió "Caja") Y (NO es "Mayor de 60"): Su turno es "C-1 (Caja)".
+■ Si (pidió "Asesoría") Y (NO es "Mayor de 60"): Su turno es "A-1 (Asesoría)".
+■ Si no ha hecho nada: "Debe solicitar un servicio primero".
+
+● Opción 5 (Salir):
+○ Debe terminar el programa.
+
+*/ 
